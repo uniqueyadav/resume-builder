@@ -74,14 +74,14 @@ export default function ResumePreview() {
 
         <section>
           <span className="basic-heading">Education</span>
-          <div className="line"></div>
+          <div className="line"></div><br />
           {(resume.education || []).map((ed, idx) => (
             <div key={idx} className="education-item">
               <div className="college">
                 <strong>
                 {ed.institution}
               </strong>
-              </div>
+              </div><br />
               <div className="year">
                 <span className="small">{ed.year}</span>
               </div>
